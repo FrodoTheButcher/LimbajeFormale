@@ -51,7 +51,7 @@ int main()
     char str1[] = "aaa, ";
     char str2[] = "bbb!";
 
-    char *result = concat(str1, str2);
+    char *result = concatenate(str1, str2);
 
 
     delete[] result;
